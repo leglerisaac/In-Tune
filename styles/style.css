@@ -1,0 +1,184 @@
+:root{
+    --custom-tan: #eddfa0;
+}
+
+body{
+    background-color: #eddfa0;
+}
+
+header{
+    color: white;
+    text-align: right;
+}
+
+nav{
+    display: flex;
+}
+
+#nav-links{
+    margin-left: auto;
+    align-content: center;
+    font-size: 20px;
+}
+
+#nav-links a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+
+}
+
+#nav-links a:hover {
+    background-color: #b59139;
+    color: white;
+}
+
+#logo-link{
+    display: block;
+    max-width: 75px;
+    height: auto;
+    padding: 0;
+}
+
+img.logo{
+    width: 75px;
+    height: auto;
+}
+
+#hero-img{
+    max-width: 80%;
+    margin: 20px auto;
+    display: block;
+}
+
+hr{
+    border: 1px solid #b59139;
+    width: 100%;
+    margin: 30px auto;
+}
+
+form{
+    display: flex;    
+}
+
+#audition-button{
+    background-color: #b59139;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+#mission-statement-img{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.social a{
+    text-decoration: none;
+    display: block;
+}
+
+#logo-link{
+    display: block;
+    max-width: 75px;
+    height: auto;
+    padding: 0;
+}
+
+.social a img{
+    width: 50px;
+    height: auto;
+    margin: 25px 25px;
+}
+
+#logo-link{
+    display: block;
+    max-width: 75px;
+    height: auto;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 600px) {
+    header{
+        text-align: center;
+    }
+    
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav-links a{
+        text-decoration: none;
+        font-size: 18px;
+        padding: 10px 10px;
+        margin: 0 5px;
+        color: black;
+        background-color: #b59139;
+        border-radius: 5px;
+    }
+
+    #nav-links{
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        justify-items: center;
+    }
+    
+    #nav-links a:hover {
+        background-color: #b59139;
+        color: white;
+    }
+    
+    #logo-link{
+        margin-bottom: 20px;
+    }
+    
+    img.logo{
+        height: auto;
+    }
+    
+    #hero-img{
+        max-width: 90%;
+    }
+
+    form{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #audition-button{
+        width: 50%;
+        font-size: 18px;
+    }
+    
+    #mission-statement-img{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #nav-links a{
+        font-size: 16px;
+    }
+}
