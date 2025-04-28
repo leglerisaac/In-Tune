@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" type="image/x-icon" href="images/logo.png">
     <title>In Tune Youth Choir</title>
+    <script src="sidenav.js" defer></script>
 </head>
 <body>
     
@@ -16,13 +17,18 @@
                 <img class="logo" src="images/logo.png" alt="In Tune Youth Choir Logo">
             </a>
 
+            <button id="menu-toggle">&#9776;</button>
             <div id="nav-links">
+                <button id="close-btn">&times;</button>
+                <a href="index.html">Home</a>
                 <a href="information.html">Information</a>
                 <a href="audition.html">Audition Sign-Up</a>
                 <a href="contact.html">Contact</a>
             </div>
         </nav>
     </header>
+
+    <div id="overlay"></div>
     
     <div id="hero">
         <div id="hero-box">
