@@ -105,6 +105,45 @@ form {
     display: flex;
 }
 
+#information-box{
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+#information-box div{
+    padding: 20px;
+}
+
+#information-box div h2{
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+}
+
+#information-box div ul{
+    font-size: 22px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+#contact-box{
+    margin: 100px auto;
+    text-align: center;
+}
+
+#contact-box h2{
+    padding-bottom: 25px;
+    line-height: 35px;
+}
+
+#contact-box a{
+    font-style: italic;
+}
+
 #audition-button {
     background-color: var(--custom-gold);
     color: black;
@@ -221,5 +260,14 @@ footer {
 
     #mission-statement-img {
         margin-top: 50px;
+    }
+
+    #information-box{
+        grid-template-columns: 1fr;
+    }
+
+    #contact-box{
+        margin: 75px auto;
+        font-size: 14px;
     }
 }
