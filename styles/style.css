@@ -47,14 +47,8 @@ body.menu-open #overlay {
     visibility: visible;
 }
 
-#logo-link {
-    max-width: 75px;
-    height: auto;
-}
-
 img.logo {
-    width: 75px;
-    height: auto;
+    width: 125px;
 }
 
 #menu-toggle, #close-btn {
@@ -157,6 +151,43 @@ form {
     border-radius: 5px;
 }
 
+#audition-dates{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    margin-bottom: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+#audition-dates-header{
+    grid-area: "header";
+    font-size: 40px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+#audition-dates div h3{
+    font-size: 20px;
+}
+
+#audition-information{
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 75px;
+}
+
+#audition-information h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+#audition-information ul li{
+    font-size: 18px;
+}
+
 #mission-statement-img {
     display: block;
     max-width: 100%;
@@ -185,7 +216,12 @@ footer {
 }
 
 /* MOBILE RESPONSIVE STYLES */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
+    
+    img.logo {
+        width: 100px;
+    }
+
     header {
         text-align: left;
         padding: 10px 20px;
@@ -256,6 +292,14 @@ footer {
     #audition-button {
         width: 50%;
         font-size: 18px;
+    }
+
+    #audition-dates{
+        grid-template-columns: 1fr;
+    }
+
+    #audition-information{
+        max-width: 90%;
     }
 
     #mission-statement-img {
