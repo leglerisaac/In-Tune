@@ -48,7 +48,7 @@ body.menu-open #overlay {
 }
 
 img.logo {
-    width: 125px;
+    width: 75px;
 }
 
 #menu-toggle, #close-btn {
@@ -184,8 +184,13 @@ form {
     font-size: 40px;
 }
 
+li{
+    line-height: 25px;
+    margin-top: 10px;
+}
+
 #audition-information ul li{
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #mission-statement-img {
@@ -219,7 +224,7 @@ footer {
 @media screen and (max-width: 800px) {
     
     img.logo {
-        width: 100px;
+        width: 50px;
     }
 
     header {
@@ -255,7 +260,7 @@ footer {
         padding: 60px 0 0 20px;
         z-index: 1000;
         transform: translateX(100%);
-        transition: transform 0.3s ease;
+        transition: transform 0.4s ease;
     }
 
     #nav-links.open {
